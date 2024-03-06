@@ -2,7 +2,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:todo_app/src/cubits/board_cubit.dart';
 import 'package:todo_app/src/models/task.dart';
-import 'package:todo_app/src/repository/board_repository.dart';
+import 'package:todo_app/src/repositories/board_repository.dart';
 import 'package:todo_app/src/state/board_state.dart';
 
 class BoardRepositoryMock extends Mock implements BoardRepository {}

@@ -1,7 +1,7 @@
 import 'package:bloc/bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:todo_app/src/models/task.dart';
-import 'package:todo_app/src/repository/board_repository.dart';
+import 'package:todo_app/src/repositories/board_repository.dart';
 import 'package:todo_app/src/state/board_state.dart';
 
 class BoardCubit extends Cubit<BoardState> {
